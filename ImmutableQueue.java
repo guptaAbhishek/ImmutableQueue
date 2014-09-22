@@ -205,25 +205,4 @@ public class ImmutableQueue<E>{//ImmutableQueue class
 		return value;
 	}
 	
-	public static void reverse(double x){
-		
-	}
-	/**
-	 * Print method prints the elements of the Queue
-	 * 
-	 * */
-	
-	public void print(){
-		if(this.isEmpty()){
-			throw new NoSuchElementException();
-		}
-		else{
-				balanceQueue();
-				System.out.println(this.reverse.head);
-				reverse = reverse.tail;
-		}
-	}
-	
-	 
-	
 }
